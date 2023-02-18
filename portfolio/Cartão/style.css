@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+	background: #5c5b5a;
+	
+}
+
+.frame {
+	position: absolute;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.6);
+}
+
+.frame, .card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.flip-me {
+	width: 25%;
+
+}
+
+
+.front .flip-me {
+	font-family: Arial;
+	font-size: 45px;
+	margin: 22px 160px;
+	color: #201c29;
+}
+
+/* faz virar */
+.card:hover .flip{
+	transform: rotateX(180deg) translate3d(0, 0, 0);
+	box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip {
+	transform-style: preserve-3d;
+	transition: all 0.7s ease-in-out;
+	perspective: 1000px;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+	background: rgba(163, 161, 161, 0.7);
+}
+
+.card .back {
+	transform: rotateX(-180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.back {
+	letter-spacing: 1px;
+	text-align: center;
+    
+}
+
+.back h2 {
+	font-size: 24px;
+	margin: 8px;
+	color: #201c29;
+    font-family: Arial;
+}
+
+.back h3 {
+	color: #201c29;
+	font-family: Arial;
+	font-weight: 300;
+	font-size: 20px;
+	margin: 8px;
+}
+
+.back h4 {
+	text-decoration: underline;
+    color: #201c29;
+	font-family: Arial;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 8px;
+}
+
+img {
+	width: 32px;
+}
+
+.link:hover {
+	cursor: pointer;
+}

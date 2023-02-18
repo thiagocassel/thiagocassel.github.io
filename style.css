@@ -1,0 +1,96 @@
+
+/* menu */
+
+.navbar{
+    background-color: rgb(213, 107, 72);
+    font-family: Chivo;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: rgb(213, 107, 72);
+}
+
+/* hero image */
+.hero_titulo{
+    font-size: 4.5rem;
+    font-family: Chivo;
+}
+.hero_desc{
+    font-size: 2rem;
+    font-family: Chivo;
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Chivo;
+}
+.bgimage{
+    height: 100vh;
+    background: url('img/mapa.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+/* sobre */
+
+.imagemSobre{
+    width: 100%;
+}
+
+.text-sobre{
+    text-align: justify;
+}
+
+/*contato */
+
+.contactIcon{
+    font-size: 56px;
+}
+
+/* espaçamentos, fonte  e cor da fonte */
+#sobre, #portfolio, #contato, #footer, #habilidades {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: rgb(213, 107, 72);
+    font-family: Chivo;
+}
+
+/* hover nos cards */
+.card:hover {
+    background-color: rgb(213, 107, 72);
+    color: white;
+}
+
+p a {
+    color:brown;
+}
+
+p a:hover {
+    color: rgb(213, 107, 72);
+}
+
+.card a:hover {
+    color: white;
+}
+
+.card a {
+    color: brown;
+}
+
+#footer a {
+    color: rgb(213, 107, 72);
+}
+
+
+    
+
+

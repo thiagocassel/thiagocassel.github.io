@@ -1,0 +1,49 @@
+#corpo
+{
+    margin-top: 20px;
+    padding: 7px;
+    width: 150px;
+    background-color: rgb(14, 14, 187);
+    border-radius: 10px;
+}
+
+#display
+{
+    width: 125px;
+    height: 30px;
+    font-style: italic;
+    font-size: large;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.botao
+{
+    padding: 0px;
+    width:30px;
+    height: 30px;
+    margin: 0px;
+    margin-top: 2.5px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: large;
+}
+
+#clear
+{
+    background-color: lightcoral;
+    color: white;
+}
+
+.igual
+{
+    padding: 0px;
+    width: 135px;
+    height: 30px;
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border-radius: 5px;
+}

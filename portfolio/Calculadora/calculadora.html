@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  href="style.css">
+        <script src="calculadora.js"></script>
+        <title>** Calculadora **</title>
+    </head>
+    <body>
+        <center>
+            <div id='corpo'>
+                <input id='display'>
+                <br>
+                <input type='button' class='botao' value='1' id='1' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='2' id='2' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='3' id='3' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='+' id='+' onclick='operacao(this)'>
+                <br> 
+                <input type='button' class='botao' value='4' id='4' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='5' id='5' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='6' id='6' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='-' id='-' onclick='operacao(this)'>
+                <br>
+                <input type='button' class='botao' value='7' id='7' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='8' id='8' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='9' id='9' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='x' id='x' onclick='operacao(this)'>
+                <br>  
+                <input type='button' class='botao' value='C' id='clear' onclick='limpar()'>
+                <input type='button' class='botao' value='0' id='0' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='.' id='.' onclick='insereNumero(this)'>
+                <input type='button' class='botao' value='/' id='/' onclick='operacao(this)'>
+                <br>  
+                <input type='button' class='igual' value='=' id='=' onclick='efetuaOperacao()'>
+             
+
+            <input type='hidden' id='num1'>
+            <input type='hidden' id='num2'>
+
+        </div>
+
+        </center>
+        
+    </body>
+</html>
+

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="'width=device-width, initial scale=1">
+    <title>Thiago Cassel</title>
+    
+    <!-- Link para css e js-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    
+    <!-- Link para bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <!-- Link para ícones do Font Awesome-->
+    <script src="https://kit.fontawesome.com/44f5855bc8.js" crossorigin="anonymous"></script>
+    <!-- Link para fonte Chivo -->
+    <link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
+</head>
+<body>
+    <!-- Menu fixado-->
+
+    <nav class="navbar navbar-expand-lg fixed top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Thiago Cassel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarSuppertedContent" 
+                aria-controls="navbarSuppertedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSuppertedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Potfólio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Header-->
+    <section class="bgimage shadow" id="inicio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_titulo">Thiago Cassel</h2>
+                    <p class="hero_desc">Engenheiro Eletricista e Desenvolvedor de Software</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção Sobre-->
+    <section class="shadow" id="sobre">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Sobre</h1>
+            <div class="row mt-4">
+                <!-- Imagem -->
+                <div class="col-lg-4">
+                    <img src="img/sobre1.jpg" class="imagemSobre">
+                </div>
+                <!-- Informações -->
+                <div class="col-lg-8">
+                        <div class="row mt-3">
+                            <div class="col-md-8 text-sobre">
+                                <p>Engenheiro eletricista e desenvolvedor de software.</p>
+                                <p>Formado em Engenharia Eétrica pela <a href="http://www.ufrgs.br">Universidade Federal do Rio Grande do Sul (UFRGS)</a>.
+                                Atuação como engenheiro eletricista na <a href="http://www.celesc.com.br">Celesc Distribuição</a> de 2012 até 2023 nas áreas de pré-operação, proteção e automação da rede de distribuição, e regulação 
+                                do setor elétrico. </p>
+                                <p>Iniciando carreira de desenvolvedor de software no <a href="http://www.banrisul.com.br">Banrisul</a>.</p>
+                                <p>Treinamento realizados:</p>
+                                <ul>
+                                    <li>Macros VBA para Excel, concluído em 06/04/2020, oferecido pela Udemy</li>
+                                    <li>Introdução à Ciência da Computação com Python - Partes 1 e 2, concluído em 28/04/2020, oferecido pela USP</li>
+                                    <li>Introdução à Programação, concluído em 22/12/2021, oferecido pela Alfamídia</li>
+                                    <li>Desenvolvedor Java, concluído em 31/03/2022, oferecido pela Alfamídia</li>
+                                    <li>CS50x - Introduction to Computer Science, concluído em 05/05/2022, oferecido pela Universidade de Harvard</li>
+                                    <li>CS50p - Introduction to Programming with Python, concluído em 16/10/2022, oferecido pela Universidade de Harvard</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades-->
+    <section class="shadow" id="habilidades">
+        <div class="container mt-3">
+            <h1 class="text-center">Habilidades</h1>
+
+            <div class="row">
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top mx-auto d-block" src="img/python.png" alt="Python"
+                            style="width: 60%">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Python</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top mx-auto d-block" src="img/javascript.png" alt="Javascript"
+                            style="width: 60%">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Javascript</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top mx-auto d-block" src="img/java.png" alt="Java"
+                            style="width: 60%">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Java</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top mx-auto d-block" src="img/html.png" alt="HTML"
+                            style="width: 60%">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">HTML</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top mx-auto d-block" src="img/sql.png" alt="SQL"
+                            style="width: 60%">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">SQL</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top mx-auto d-block" src="img/c.png" alt="C#"
+                            style="width: 60%">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">C#</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!--Seção Portfólio-->
+    <section class="shadow" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfólio</h1>
+
+            <div class="row">
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbnail/estante.png" alt="Card imagem projeto estante de livros"
+                            style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Estante de livros</h4>
+                            <p class="card-text">Primeiro projeto com HTML e CSS</p>
+                            <div class="text-center">
+                                <a href="portfolio/Estante/estante.html" target="_blank">Estante</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbnail/locadora.png" alt="Card imagem projeto cadastro locadora"
+                            style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Locadora</h4>
+                            <p class="card-text">Cadastro de filmes em uma locadora utilizando javascript e bootstrap</p>
+                            <div class="text-center">
+                                <a href="portfolio/Locadora/locadora.html" target="_blank">Locadora</a>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbnail/mario.png" alt="Card imagem projeto site interativo"
+                            style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Mario</h4>
+                            <p class="card-text">Site interativo com animação</p>
+                            <div class="text-center">
+                                <a href="portfolio/Mario/mario.html" target="_blank">Mario</a>
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbnail/cartao.png" alt="Card imagem cartão de visitas"
+                            style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Cartão</h4>
+                            <p class="card-text">Cartão de Visitas</p>
+                            <div class="text-center">
+                                <a href="portfolio/Cartão/cartao.html" target="_blank">Cartão</a>
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbnail/calculadora.png" alt="Card imagem projeto calculadora"
+                            style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Calculadora</h4>
+                            <p class="card-text">Calculadora em javascript</p>
+                            <div class="text-center">
+                                <a href="portfolio/Calculadora/calculadora.html" target="_blank">Calculadora</a>
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                <div class="col lg-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="portfolio/thumbnail/jogodavelha.png" alt="Card Jogo da Velha"
+                            style="width: 100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Jogo da Velha</h4>
+                            <p class="card-text">Jogo da Velha desenvolvido em javascript</p>
+                            <div class="text-center">
+                                <a href="portfolio/Jogo da Velha/jogoDaVelha.html" target="_blank">Jogo da Velha</a>
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+            </div>
+
+
+        
+    </section>
+
+    <!--Seção Contato-->
+    <section class="shadow" id="contato">
+        <div class="container mt-3 mb-3 contactContainer">
+            <h1 class="text-center">Entre em contato</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Rua+Nicolau+Antônio+Deschamps+-+Córrego+Grande,+Florianópolis+-+SC,+Brasil&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a><style>#embedded-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-phone servicesIcon"></i>
+                                    <h4 class="card-title mt-3">Telefone</h4>
+                                    <p class="card-text mt-3">(48)988260550</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-envelope servicesIcon"></i>
+                                    <h4 class="card-title mt-3">Email</h4>
+                                    <p class="card-text mt-3">thiagocassel@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-lg-6">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <h4 class="card-title mt-3"><a href="https://www.linkedin.com/in/thiago-cassel-8728a13b/">Linkedin</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Footer-->
+    <footer class="text-center text-white" id="footer">
+
+        <div class="container p-4 pb-0">
+            <div class="row mt-4 mb-4 justify-content-md-center">
+                <div class="col-lg-3">
+                    <a href="https://github.com/thiagocassel"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.linkedin.com/in/thiago-cassel-8728a13b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgb(213, 107, 72);">
+            <p>Desenvolvido por Thiago Cassel para o projeto final do curso <i>Desenvolvimento Front End: do zero ao primeiro site</i> oferecido pela HappyCode</p>
+        </div>
+    </footer>
+
+</body>
+</html>
